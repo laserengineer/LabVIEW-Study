@@ -1,2 +1,1 @@
-# LabVIEW Study
- LabVIEW OOP Study
+# LabVIEW Actor Study Code List
