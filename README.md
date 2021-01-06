@@ -1,2 +1,2 @@
-# LabVIEW Study
- LabVIEW OOP Study
+# LabVIEW Actor Study Code List
+# LabVIEW actors total: 2
