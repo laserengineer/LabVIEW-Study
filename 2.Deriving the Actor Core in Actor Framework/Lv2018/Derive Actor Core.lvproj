@@ -12,12 +12,17 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="QDSM" Type="Folder">
+			<Item Name="Core_QDSM.vi" Type="VI" URL="../Core_QDSM.vi"/>
+		</Item>
+		<Item Name="QDSM_OOP" Type="Folder">
+			<Item Name="Core_OOP.vi" Type="VI" URL="../Core_OOP.vi"/>
+		</Item>
 		<Item Name="Process Method" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Counter.lvclass" Type="LVClass" URL="../Counter Class/Counter.lvclass"/>
 			<Item Name="Complex.lvclass" Type="LVClass" URL="../Complex Class/Complex.lvclass"/>
 			<Item Name="Standard.lvclass" Type="LVClass" URL="../Standard Class/Standard.lvclass"/>
-			<Item Name="Actor Data.ctl" Type="VI" URL="../Counter Class/Actor Data.ctl"/>
 		</Item>
 		<Item Name="Message" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -26,11 +31,6 @@
 			<Item Name="Initialise.lvclass" Type="LVClass" URL="../Message Class/Ini/Initialise.lvclass"/>
 			<Item Name="Stop.lvclass" Type="LVClass" URL="../Message Class/Stop/Stop.lvclass"/>
 		</Item>
-		<Item Name="QDSM" Type="Folder">
-			<Item Name="Core_QDSM.vi" Type="VI" URL="../Core_QDSM.vi"/>
-		</Item>
-		<Item Name="Core.vi" Type="VI" URL="../Core.vi"/>
-		<Item Name="Core_OOP.vi" Type="VI" URL="../Core_OOP.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
