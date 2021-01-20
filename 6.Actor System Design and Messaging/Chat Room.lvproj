@@ -13,6 +13,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Server.lvlib" Type="Library" URL="../Server/Server.lvlib"/>
+		<Item Name="Chat Room Model.lvlib" Type="Library" URL="../Chat Room Model/Chat Room Model.lvlib"/>
+		<Item Name="Chat Room Controller.lvlib" Type="Library" URL="../Chat Room Controller/Chat Room Controller.lvlib"/>
 		<Item Name="Launcher.vi" Type="VI" URL="../Server/Launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
