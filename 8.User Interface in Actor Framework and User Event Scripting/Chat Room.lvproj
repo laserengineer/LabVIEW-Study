@@ -15,6 +15,7 @@
 		<Item Name="Server.lvlib" Type="Library" URL="../Server/Server.lvlib"/>
 		<Item Name="Chat Room Model.lvlib" Type="Library" URL="../Chat Room Model/Chat Room Model.lvlib"/>
 		<Item Name="Chat Room Controller.lvlib" Type="Library" URL="../Chat Room Controller/Chat Room Controller.lvlib"/>
+		<Item Name="Chat Window Panel.lvlib" Type="Library" URL="../Chat Window  Panel/Chat Window Panel.lvlib"/>
 		<Item Name="Launcher.vi" Type="VI" URL="../Server/Launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -55,6 +56,10 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+			</Item>
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
+				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
