@@ -1,6 +1,10 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
+	<Property Name="CCSymbols" Type="Str"></Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -10,8 +14,15 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
+		<Item Name="Controls" Type="Folder">
+			<Item Name="Message.ctl" Type="VI" URL="../Application Control/Message.ctl"/>
+		</Item>
+		<Item Name="Interface.lvlib" Type="Library" URL="../Interface/Interface.lvlib"/>
 		<Item Name="Server.lvlib" Type="Library" URL="../Server/Server.lvlib"/>
+		<Item Name="Chat Room Model.lvlib" Type="Library" URL="../Chat Room Model/Chat Room Model.lvlib"/>
+		<Item Name="Chat Window UI Controller.lvlib" Type="Library" URL="../Chat Window UI Controller/Chat Window UI Controller.lvlib"/>
+		<Item Name="Chat Window UI.lvlib" Type="Library" URL="../Chat Window UI/Chat Window UI.lvlib"/>
+		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
