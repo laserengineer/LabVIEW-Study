@@ -8,4 +8,6 @@
 	<Item Name="Chat Room Window.lvclass" Type="LVClass" URL="../Chat Room Window/Chat Room Window.lvclass"/>
 	<Item Name="UI Direct Message Msg.lvclass" Type="LVClass" URL="../Chat Room UI Messages/UI Direct Message Msg/UI Direct Message Msg.lvclass"/>
 	<Item Name="UI Status Change Msg.lvclass" Type="LVClass" URL="../Chat Room UI Messages/UI Status Change Msg/UI Status Change Msg.lvclass"/>
+	<Item Name="Window Direct Message Msg.lvclass" Type="LVClass" URL="../Chat Room Window Messages/Window Direct Message Msg/Window Direct Message Msg.lvclass"/>
+	<Item Name="Window Status Change Msg.lvclass" Type="LVClass" URL="../Chat Room Window Messages/Window Status Change Msg/Window Status Change Msg.lvclass"/>
 </Library>

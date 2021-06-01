@@ -4,6 +4,11 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="ReceiveNewMessage Msg.lvclass" Type="LVClass" URL="../Chat Room Model Messages/ReceiveNewMessage Msg/ReceiveNewMessage Msg.lvclass"/>
+		<Item Name="Reserve sent message Msg.lvclass" Type="LVClass" URL="../Chat Room Model Messages/Reserve sent message Msg/Reserve sent message Msg.lvclass"/>
+		<Item Name="Update Online List Msg.lvclass" Type="LVClass" URL="../Chat Room Model Messages/Update Online List Msg/Update Online List Msg.lvclass"/>
+		<Item Name="Update Online Status List Msg.lvclass" Type="LVClass" URL="../Chat Room Model Messages/Update Online Status List Msg/Update Online Status List Msg.lvclass"/>
+	</Item>
 	<Item Name="Chat Room Model.lvclass" Type="LVClass" URL="../Chat Room Model/Chat Room Model.lvclass"/>
 </Library>

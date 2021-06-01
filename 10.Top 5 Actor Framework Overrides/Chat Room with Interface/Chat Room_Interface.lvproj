@@ -17,6 +17,9 @@
 		<Item Name="Controls" Type="Folder">
 			<Item Name="Message.ctl" Type="VI" URL="../Application Control/Message.ctl"/>
 		</Item>
+		<Item Name="Documentation" Type="Folder">
+			<Item Name="Documentation.vi" Type="VI" URL="../../Yang&apos;s Solution/Support/Documentation.vi"/>
+		</Item>
 		<Item Name="Interface.lvlib" Type="Library" URL="../Interface/Interface.lvlib"/>
 		<Item Name="Server.lvlib" Type="Library" URL="../Server/Server.lvlib"/>
 		<Item Name="Chat Room Model.lvlib" Type="Library" URL="../Chat Room Model/Chat Room Model.lvlib"/>
@@ -63,6 +66,11 @@
 				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Equal Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Comparable/Equal Comparable.lvclass"/>
+				<Item Name="Equal Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Functor/Equal Functor.lvclass"/>
+				<Item Name="Equals.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Equals.vim"/>
+				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
+				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>

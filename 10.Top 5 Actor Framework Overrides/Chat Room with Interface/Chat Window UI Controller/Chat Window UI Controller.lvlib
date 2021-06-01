@@ -5,7 +5,12 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
-		<Item Name="Update Message Log Msg.lvclass" Type="LVClass" URL="../Chat Window Controller Messages/Update Message Log Msg/Update Message Log Msg.lvclass"/>
+		<Item Name="Own Status Change Msg.lvclass" Type="LVClass" URL="../Chat Window UI Controller Messages/Own Status Change Msg/Own Status Change Msg.lvclass"/>
+		<Item Name="Send message Msg.lvclass" Type="LVClass" URL="../Chat Window UI Controller Messages/Send message Msg/Send message Msg.lvclass"/>
+		<Item Name="Update Message Log Msg.lvclass" Type="LVClass" URL="../Chat Window UI Controller Messages/Update Message Log Msg/Update Message Log Msg.lvclass"/>
+		<Item Name="Update Online List Msg.lvclass" Type="LVClass" URL="../Chat Window UI Controller Messages/Update Online List Msg/Update Online List Msg.lvclass"/>
+		<Item Name="Update Online Status List Msg.lvclass" Type="LVClass" URL="../Chat Window UI Controller Messages/Update Online Status List Msg/Update Online Status List Msg.lvclass"/>
+		<Item Name="Update VI Title Msg.lvclass" Type="LVClass" URL="../Chat Window UI Controller Messages/Update VI Title Msg/Update VI Title Msg.lvclass"/>
 	</Item>
-	<Item Name="Chat Window Controller.lvclass" Type="LVClass" URL="../Chat Window UI Controller/Chat Window Controller.lvclass"/>
+	<Item Name="Chat Window UI Controller.lvclass" Type="LVClass" URL="../Chat Window UI Controller/Chat Window UI Controller.lvclass"/>
 </Library>

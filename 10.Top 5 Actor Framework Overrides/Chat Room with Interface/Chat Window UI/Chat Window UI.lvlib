@@ -4,9 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder">
-		<Item Name="Update Message log Msg.lvclass" Type="LVClass" URL="../../Chat Window Controller UI Messages/Update Message log Msg/Update Message log Msg.lvclass"/>
-		<Item Name="Update Online Status List Msg.lvclass" Type="LVClass" URL="../../Chat Window Controller UI Messages/Update Online Status List Msg/Update Online Status List Msg.lvclass"/>
-	</Item>
+	<Item Name="Messages for this Actor" Type="Folder"/>
 	<Item Name="Chat Window Controller UI.lvclass" Type="LVClass" URL="../Chat Window Controller UI.lvclass"/>
 </Library>

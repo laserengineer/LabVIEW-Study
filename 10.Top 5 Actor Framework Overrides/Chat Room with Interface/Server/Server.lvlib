@@ -5,8 +5,11 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Enable Controls Msg.lvclass" Type="LVClass" URL="../Server Messages/Enable Controls Msg/Enable Controls Msg.lvclass"/>
 		<Item Name="Global Chat Msg.lvclass" Type="LVClass" URL="../Server Messages/Global Chat Msg/Global Chat Msg.lvclass"/>
 		<Item Name="Lanuch New Chat Window Msg.lvclass" Type="LVClass" URL="../Server Messages/Lanuch New Chat Window Msg/Lanuch New Chat Window Msg.lvclass"/>
+		<Item Name="Window Direct Message Msg.lvclass" Type="LVClass" URL="../Server Messages/Window Direct Message Msg/Window Direct Message Msg.lvclass"/>
+		<Item Name="Window Status Change Msg.lvclass" Type="LVClass" URL="../Server Messages/Window Status Change Msg/Window Status Change Msg.lvclass"/>
 	</Item>
 	<Item Name="Server.lvclass" Type="LVClass" URL="../Server/Server.lvclass"/>
 </Library>
