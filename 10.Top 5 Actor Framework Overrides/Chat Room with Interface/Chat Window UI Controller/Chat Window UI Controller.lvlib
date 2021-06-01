@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Clear Sent Message Msg.lvclass" Type="LVClass" URL="../Chat Window UI Controller Messages/Clear Sent Message Msg/Clear Sent Message Msg.lvclass"/>
 		<Item Name="Own Status Change Msg.lvclass" Type="LVClass" URL="../Chat Window UI Controller Messages/Own Status Change Msg/Own Status Change Msg.lvclass"/>
 		<Item Name="Send message Msg.lvclass" Type="LVClass" URL="../Chat Window UI Controller Messages/Send message Msg/Send message Msg.lvclass"/>
 		<Item Name="Update Message Log Msg.lvclass" Type="LVClass" URL="../Chat Window UI Controller Messages/Update Message Log Msg/Update Message Log Msg.lvclass"/>
